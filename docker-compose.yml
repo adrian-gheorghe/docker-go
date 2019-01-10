@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  app:
+    container_name: go
+    build: .
+    volumes:
+      - ./code:/go/src/app
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: 3001
+    restart: always
