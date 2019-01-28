@@ -1,5 +1,7 @@
 ### Golang Docker Development Environment
 
+[![CircleCI](https://circleci.com/gh/adrian-gheorghe/docker-go.svg?style=svg)](https://circleci.com/gh/adrian-gheorghe/docker-go)
+
 Encapsulate your Golang development using Docker. This docker image uses "gin" to listen to file changes and rebuild our binary. This GO container setup runs well with my docker main setup: https://github.com/adrian-gheorghe/docker-setup
 
 ### Usage
